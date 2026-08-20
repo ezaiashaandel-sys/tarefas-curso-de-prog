@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    inteiro n
+    escreva("qual é seu numero?=")
+    leia(n)
+
+    inteiro calculo = 3*n-5
+    escreva("seu numero é=", calculo)
+
+  }
+}
