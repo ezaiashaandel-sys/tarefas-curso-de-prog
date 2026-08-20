@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    real celsius
+    escreva("quantos celsius sao?=")
+    leia(celsius)
+
+    real fahrenheit = celsius*9/5+32
+
+
+    escreva("seu numero de fahrenheit é=", fahrenheit)
+  }
+}
