@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real preco 
+    
+
+    escreva("qual e'o valor?=")
+    leia(preco)
+     real desconto = 15
+
+     real precofinal = preco*desconto/100
+     escreva("seu valor final é=", precofinal)
+
+   
+    
+  }
+}
