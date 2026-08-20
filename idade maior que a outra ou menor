@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro idadepessoa
+    escreva("qual sua idade?=")
+    leia(idadepessoa)
+
+    inteiro idadepessoa2
+    escreva("qual e a idade da outra pessoa?=")
+    leia(idadepessoa2)
+
+se (idadepessoa==idadepessoa2) {
+escreva("vcs tem a mesma idade")
+
+}
+    senao se (idadepessoa > idadepessoa2) {
+escreva("voce e mais velho")
+
+}
+senao {
+
+  escreva("a outra pessoa é mais velha")
+}
+    }
+  }
+}
