@@ -1,0 +1,32 @@
+programa {
+  funcao inicio() {
+    inteiro numero1
+    inteiro numero2
+
+    inteiro calculo
+
+  escreva(" MENU", "\n")
+        escreva("1 = SOMA", "\n")
+        escreva("2 = SUBTRAIR", "\n")
+        escreva("Escolha uma opção", "\n")
+        leia(numero1)
+        leia(numero2)
+
+
+        escolha (numero1 e numero2)
+        {
+            caso 1:
+                escreva("você quer somar, qual numero?", "\n")
+                leia(numero1)
+                escolha(numero2)
+                pare
+            caso 2:
+                escreva("você quer subtrair", "\n")
+                pare
+            caso contrario:
+                escreva("\nOpção inválida!")
+
+
+  }
+}
+}
